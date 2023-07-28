@@ -1,6 +1,22 @@
 #! /usr/bin/python
 
 import base64
+import sys
 
-if(len() != 3 or option = '-h'):
-  print("Usage:")
+if(len(sys.argv) !=3 or sys.argv[1] == "-h"):
+    print("Usage: b64 {-e|-d} [-h] \"<string>\"")
+    print("-e Encode")
+    print("-d Decode")
+    print("--help Prints this help menu")
+    exit(-1)
+
+path = sys.argv[0]
+option = sys.argv[1]
+data = sys.argv[2]
+
+if(option=="-e"):
+    print(base64.b64encode(data.encode()).decode())
+elif(option=="-d"):
+    print(base64.b64decode(data.encode()).decode())
+
+
