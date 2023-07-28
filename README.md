@@ -9,14 +9,14 @@ The base64 is a linux command line utlity to used for encode and decode the data
 
 ## First way to the run the md5 linux command:
 
-` [git clone https://github.com/sathiskumar-saravanan/md5.git](https://github.com/sathiskumar-saravanan/base64.git)`
+[git clone https://github.com/sathiskumar-saravanan/md5.git](https://github.com/sathiskumar-saravanan/base64.git)
 
 ` python b64 {-d|-e} "<string>"`
 
 ## Second way to run the md5 linux command:
 
 1. First clone the repo:<br>
-  ` [git clone https://github.com/sathiskumar-saravanan/md5.git](https://github.com/sathiskumar-saravanan/base64.git)`
+[git clone https://github.com/sathiskumar-saravanan/md5.git](https://github.com/sathiskumar-saravanan/base64.git)
 
 2. Goto inside the code directory:<br>
    `pwd`
